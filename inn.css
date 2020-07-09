@@ -1,0 +1,67 @@
+#navbar {
+    overflow: hidden;
+    background-color: #395a87;
+    margin-left: 0px;
+    width: auto;
+    margin-bottom: 4rem;
+  }
+  #navbar a {
+    float: left;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  #navbar a:hover, #dropdown:hover #dropbtn {
+    background-color: #A60303;
+  }
+
+
+  .side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 0px;
+    transition: 0.5s;
+}
+
+.side-nav a {
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    color: #009f8b;
+}
+
+/* Background image */
+.bac{
+    background: url(../Ina/1stBackground.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.param{
+    text-align: center;
+    color: #fff;
+    padding-top: 6rem;
+}
+
+#view{
+    background-color: #009f8b;
+    padding: 1rem;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="inn.css">
+
+   <title>Document</title>
+</head>
+<body>
+   
+    <div class="container-fluid bac">
+        
+<div class="row">
+<div class="col-md-12">
+ 
+    <nav id="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+              <svg width="30" height="30">
+                <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+              </svg>
+            </a>
+        <div id="menu">
+        <ul class="navbar-nav">
+              <div id="content">
+    
+                <li> <a href="../index.html">Home</a></li>
+                <li> <a href="./checkoutpage.html">About</a></li>
+                <li> <a href="./feedbackpage.html">High End Tour</a></li>
+                <li> <a href="./index.html">Low End Tour</a></li>
+                <li><a href="#" onclick="contact();">Contact us</a></li>
+                <li><a id="order" href="#" onclick="order();">Order a tour</a></li>
+              </ul>
+              </div>
+        </nav>
+
+
+        <!-- Side menu links -->
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <hr>
+            <a href="./index.html">Reale</a>
+            <a href="./html/about.html">About</a>
+            <a href="./html/high-end.html">High-end</a>
+            <a href="./html/low-end.html">Low-end</a>
+            <a href="./html/contact.html">Contact Us</a>
+            <a href="./html/contact.html">Order a tour</a>
+          </div>
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+<div class="param">
+    <h1>Reale Virtual Reality</span></h1>
+    <p>
+        Real Estate marketing redefined
+    </p>
+
+       <!-- maknig the whole button clickable -->
+       <a href="#">
+        <button id="view" type="button" onclick="view();">
+        View $1 million in VR
+    </button>
+    </a>
+</div>
+</div>
+</div>
+
+
+    </div>
+
+    <script>
+
+//Opens a side menue to links
+function openSlideMenu() {
+    document.getElementById('side-menu').style.width = '250px';
+    document.getElementById('main').style.marginLeft = '250px';
+}
+
+function closeSlideMenu() {
+    document.getElementById('side-menu').style.width = '0';
+    document.getElementById('main').style.marginLeft = '0';
+}
+
+
+    </script>
+</body>
+</html>
