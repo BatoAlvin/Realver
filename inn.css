@@ -1,6 +1,10 @@
+body{
+
+  background-color: #395a87;
+}
 #navbar {
     overflow: hidden;
-    background-color: #395a87;
+    background-color: #7c889f;
     margin-left: 0px;
     width: auto;
     margin-bottom: 4rem;
@@ -50,7 +54,7 @@
 
 /* Background image */
 .bac{
-    background: url(../Ina/1stBackground.jpg);
+    background: url(../Realver/1stBackground.jpg);
     width: 100%;
     height: 100vh;
 }
