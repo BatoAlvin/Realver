@@ -58,7 +58,13 @@ body{
     width: 100%;
     height: 100vh;
 }
-
+@media (max-width: 600px){
+.bac{
+  background: url(../Realver/1stBackground.jpg);
+  width: 100%;
+  height: 100vh;
+}
+}
 .param{
     text-align: center;
     color: #fff;
