@@ -62,12 +62,13 @@ body{
 .bac{
   background: url(../Realver/1stBackground.jpg);
   width: 100%;
-  height: 100vh;
+  height: 150vh;
 }
 .param{
   text-align: center;
   color: #fff;
   padding-top: 6rem;
+
 }
 }
 .param{
@@ -79,4 +80,5 @@ body{
 #view{
     background-color: #009f8b;
     padding: 1rem;
+    margin-bottom: 3rem;
 }
